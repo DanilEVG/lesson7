@@ -13,6 +13,14 @@
 		7DCF624E2BD2D6920002FA79 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7DCF624D2BD2D6920002FA79 /* Base */; };
 		7DCF62502BD2D6940002FA79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DCF624F2BD2D6940002FA79 /* Assets.xcassets */; };
 		7DCF62532BD2D6940002FA79 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7DCF62522BD2D6940002FA79 /* Base */; };
+		7DCF625B2BD2D7070002FA79 /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCF625A2BD2D7070002FA79 /* Shop.swift */; };
+		7DCF625D2BD2D90A0002FA79 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCF625C2BD2D90A0002FA79 /* Product.swift */; };
+		7DCF625F2BD2DD6F0002FA79 /* Buyer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCF625E2BD2DD6F0002FA79 /* Buyer.swift */; };
+		7DCF62612BD2EE3F0002FA79 /* CardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCF62602BD2EE3F0002FA79 /* CardInfo.swift */; };
+		7DCF62632BD2EFC70002FA79 /* CheapBuyer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCF62622BD2EFC70002FA79 /* CheapBuyer.swift */; };
+		7DCF62672BD7D0C30002FA79 /* Cashier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCF62662BD7D0C30002FA79 /* Cashier.swift */; };
+		7DCF62692BD81AD80002FA79 /* Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCF62682BD81AD80002FA79 /* Payment.swift */; };
+		7DCF626B2BD82AC90002FA79 /* PaymentMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCF626A2BD82AC90002FA79 /* PaymentMethod.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		7DCF624F2BD2D6940002FA79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DCF62522BD2D6940002FA79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DCF62542BD2D6940002FA79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DCF625A2BD2D7070002FA79 /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
+		7DCF625C2BD2D90A0002FA79 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		7DCF625E2BD2DD6F0002FA79 /* Buyer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buyer.swift; sourceTree = "<group>"; };
+		7DCF62602BD2EE3F0002FA79 /* CardInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardInfo.swift; sourceTree = "<group>"; };
+		7DCF62622BD2EFC70002FA79 /* CheapBuyer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheapBuyer.swift; sourceTree = "<group>"; };
+		7DCF62662BD7D0C30002FA79 /* Cashier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cashier.swift; sourceTree = "<group>"; };
+		7DCF62682BD81AD80002FA79 /* Payment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payment.swift; sourceTree = "<group>"; };
+		7DCF626A2BD82AC90002FA79 /* PaymentMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethod.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +79,14 @@
 				7DCF624F2BD2D6940002FA79 /* Assets.xcassets */,
 				7DCF62512BD2D6940002FA79 /* LaunchScreen.storyboard */,
 				7DCF62542BD2D6940002FA79 /* Info.plist */,
+				7DCF625A2BD2D7070002FA79 /* Shop.swift */,
+				7DCF625C2BD2D90A0002FA79 /* Product.swift */,
+				7DCF62662BD7D0C30002FA79 /* Cashier.swift */,
+				7DCF625E2BD2DD6F0002FA79 /* Buyer.swift */,
+				7DCF62602BD2EE3F0002FA79 /* CardInfo.swift */,
+				7DCF62682BD81AD80002FA79 /* Payment.swift */,
+				7DCF62622BD2EFC70002FA79 /* CheapBuyer.swift */,
+				7DCF626A2BD82AC90002FA79 /* PaymentMethod.swift */,
 			);
 			path = lesson7;
 			sourceTree = "<group>";
@@ -139,8 +163,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DCF624B2BD2D6920002FA79 /* ViewController.swift in Sources */,
+				7DCF625F2BD2DD6F0002FA79 /* Buyer.swift in Sources */,
+				7DCF626B2BD82AC90002FA79 /* PaymentMethod.swift in Sources */,
 				7DCF62472BD2D6920002FA79 /* AppDelegate.swift in Sources */,
+				7DCF62672BD7D0C30002FA79 /* Cashier.swift in Sources */,
+				7DCF62692BD81AD80002FA79 /* Payment.swift in Sources */,
+				7DCF62632BD2EFC70002FA79 /* CheapBuyer.swift in Sources */,
+				7DCF625D2BD2D90A0002FA79 /* Product.swift in Sources */,
 				7DCF62492BD2D6920002FA79 /* SceneDelegate.swift in Sources */,
+				7DCF62612BD2EE3F0002FA79 /* CardInfo.swift in Sources */,
+				7DCF625B2BD2D7070002FA79 /* Shop.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
